@@ -939,9 +939,10 @@
     outline: none;
     color:black;
   }
-  footer #form #message input{
-    padding-bottom: 10vw;
-    
+  footer #form textarea {
+    width:53vw;
+    height: 30vw;
+    color:black;
   }
   
   /*Social Media icons*/
@@ -1066,14 +1067,14 @@
      width:60vw;
       margin-top:30px;
     }
-    header .banner .social-media-icons{
-      
+    header .banner .social-media-icons span a{
+      font-size: 30px;
     }
     header .banner .about-me-button{
-      margin-top:30px;
+      margin-top:2vw;
       position: relative;
      font-size: 2vw;
-      top:6vw;
+      top:3vw;
     }
     main #section1 {
       text-align: center;
@@ -1357,12 +1358,12 @@
     footer #form #name input{
       width:53vw;
       height: 4.4vw;
-      padding:3.2vw 0; 
+      padding:2vw 0; 
     }
     footer #form #email input{
       width:53vw;
       height: 4.4vw;
-      padding:3.2vw 0; 
+      padding:2vw 0; 
     }
     footer #form #message input{
       
@@ -1413,8 +1414,30 @@
       overflow:hidden;
       height:130vw;
     }
+    #icon{
+      font-size: 30px;
+    }
+    #icon2{
+      font-size: 30px;
+    }
+    header #Top-bar #label{
+      font-size: 35px;
+    }
+    header .banner .Top-headings{
+      top:15vw;
+    }
+
+    header .banner .social-media-icons span a{
+      font-size: 20px;
+    }
+    main #section1 .about-me button{
+      margin-top: 2vw;
+    }
     footer #form .social-media-icons{
       position: relative;
       right:15vw;
+    }
+    footer #form .social-media-icons span a{
+      font-size: 20px;
     }
   }
