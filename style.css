@@ -940,9 +940,11 @@
     color:black;
   }
   footer #form textarea {
-    width:53vw;
-    height: 30vw;
+    width:30vw;
+    height: 20vw;
     color:black;
+    padding-left: 0.5vw;
+    padding-top:0.5vw; 
   }
   
   /*Social Media icons*/
@@ -1032,14 +1034,17 @@
       display: block;
       border: solid 1px;
       position: fixed;
-      left:-390px;
+      left:-420px;
       top: 0;
       height:100vh;
-      width: 300px;
+      width: 60vw;
       background:black;
-      line-height: 60px;
+      line-height: 70px;
       padding-top: 7vw;
       transition: all 300ms;
+    }
+    header #Top-bar nav ul li a{
+      font-size: 4vw;
     }
     header .banner{
       background-size: contain;
@@ -1355,6 +1360,12 @@
       position: relative;
       right:10vw;
     }
+    footer #form div label{
+      font-size: 3vw;
+    }
+    footer #form input{
+      font-size: 2.4vw;
+    }
     footer #form #name input{
       width:53vw;
       height: 4.4vw;
@@ -1365,10 +1376,10 @@
       height: 4.4vw;
       padding:2vw 0; 
     }
-    footer #form #message input{
+    footer #form textarea {
       
       width:53vw;
-      height: 4.4vw;
+      height: 20vw;
       padding:1vw 0;
       padding-bottom: 20vw;
     }
