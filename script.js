@@ -297,7 +297,7 @@ let x =document.querySelector('#project');
     let navbar = document.getElementById("navigation");
     let icon = document.getElementById("icon");
     let icon2 = document.getElementById("icon2");
-    navbar.style.left = "-420px";
+    navbar.style.left = "-630px";
     icon.style.display = "block";
     icon2.style.display = "none";
   }
