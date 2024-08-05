@@ -123,6 +123,10 @@ let x =document.querySelector('#project');
       let element = document.querySelector('.top');
       element.scrollIntoView({behavior: 'smooth'});
     }
+    function projects(){
+      let element = document.querySelector('#project-columns');
+      element.scrollIntoView({behavior: 'smooth'});
+    }
      
      function forwards(){
       let x = document.getElementById('E-commerce');
@@ -297,7 +301,7 @@ let x =document.querySelector('#project');
     let navbar = document.getElementById("navigation");
     let icon = document.getElementById("icon");
     let icon2 = document.getElementById("icon2");
-    navbar.style.left = "-630px";
+    navbar.style.left = "-390px";
     icon.style.display = "block";
     icon2.style.display = "none";
   }
